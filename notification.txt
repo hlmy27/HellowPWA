@@ -1,0 +1,15 @@
+curl -X POST -H "Authorization: key=AAAApHgtjsA:APA91bFX_4SfwpVROl5VgvVkBLZQH5kVjsw4y01pj31FNZI7cAPvFBq_bOhuTSImIpdPDyuKXmsfcW5SDoECK6JLqbelVBQREC4jfEl6fLmXLQ-Cpryqpo-gq0Que_1HEjqVPzSqimoY" -H "Content-Type: application/json" -d '{
+  "notification": {
+    "title": "Hello World PWA",
+    "body": "Jomblo ngomong jomblo",
+  },
+  "to": "e5SL0J-x4gE:APA91bFegCA-9H5PDm0HewNyZE-pRZbs_MHRsKqifRlVISYUjxFTidOoVBWzndYBPUWJdJRx8Vdu4jzOTgTUDXyq6Em8Vvk69r5ePWFfpee-IGFbtg6r40eoNJ_1PDnKzcOrBnO_oI8T"
+}' "https://fcm.googleapis.com/fcm/send"
+
+curl -X POST -H "Authorization: key=AAAA-HOkvds:APA91bF8SIAkZPrrOXQLhwiJLjRgkwEh26PB0ccxdDLOwY7ym8STpEvFTt6eB2ly0jCaKztJBEDN0TsGvEubuOemFGmJwoK2QKFAIWul1FUe6wrLybdmCDF-wRonfPrlEI6gh-eRfYGC" -H "Content-Type: application/json" -d '{
+  "notification": {
+    "title": "Hello World PWA",
+    "body": "Mau banget?",
+  },
+  "to": "djMDmSuQwNk:APA91bH60o_ap5DYFbsSQkKlRsxTFN68kLOOWi7rjTYnJa8dCHJQPPun4iQekl7_tpyu5MlHyVOzlQ_gGdh1R3hMKq3q3cMpUaFaDzxy4EbjwfLaQ_CNRZ6tVrknrlEvv845vdmznC5X"
+}' "https://fcm.googleapis.com/fcm/send"
